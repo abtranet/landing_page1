@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    .main {
+        background-color: #1f2937;
+        color: #f9faf8;
+        height:100%;
+    }
+
+    .nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+
+    .header-logo, .header-links {
+        margin: 10px 30px 5px;
+        
+    }
+   
+    
+
+    .nav a {
+    color: #f9faf8;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 8px;
+    display: inline-block;
+
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+ .main-content {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100px;
+     margin:auto;
+     margin-top: 150px;
+     padding: 15px;
+ }
+
+  .main-info h1 {
+      font-size: 48px;
+      margin: 10px;
+    }
+
+  .main-info p {
+      margin:10px
+
+  }
+
+
+  .main-info button{
+      margin: 10px;
+      cursor: pointer;
+      outline: 0;
+      color: #fff;
+      background-color: #0d6efd;
+      border-color: #0d6efd;
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+      border: 1px solid transparent;
+      padding: 6px 12px;
+      font-size: 16px;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border color .015s box-shadow .15s ease-in-out;
+
+  }
+ .main-info button:hover {
+     color: #fff;
+     background-color: #0b5ed7;
+     border-color: #0a58ca;
+
+ }
+.info-heading {
+    margin: 0 auto;
+
+}
+
+.random-info {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+}
+.random-info .info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-info {
+    margin: 15px;
+    width: 200px;
+}
+
+.quote-container {
+    height: 50%;
+    background-color: #e5e7eb;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blockquote {
+    height: 40%;
+    width: 700px;
+    background-color: #d9dbbe;
+    padding: 25px;
+    margin: 10px 30px;
+    border: 1px solid #c1c3c7;
+}
+
+.blockquote-text {
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    
+}
+
+.blockquote-author {
+    margin: 15px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+}
+
+
+.sign-up-container {
+    height: 40%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 7px;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up-text p, .sign-up-text h3{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sign-up-button button {
+
+    cursor:pointer;
+    outline: 0;
+    display:inline-block;
+    font-weight:400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color 15s ease-in-out,background-color .15s ease-in-out, border-color .15es ease-in-out,box-shadow .15s ease-in-out;
+    color: #0d6efd;
+    border-color: #0d6efd;
+
+    
+    
+    
+}
+
+.footer{
+    position: relative;
+    background-color: #1f2937;
+    height: 15%;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer a {
+    color: #fff;
+}
